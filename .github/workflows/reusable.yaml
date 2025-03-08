@@ -1,0 +1,8 @@
+name: Reusable Deploy
+on: ...
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ouput info
+        run: echo "Deploying & uploading..."
